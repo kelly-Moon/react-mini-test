@@ -1,0 +1,25 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  background: $main-color;
+  color: #fff;
+  border-bottom: 1px solid #eee;
+  z-index: 1000;
+
+  nav {
+    margin-top: 10px;
+
+    a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #fff;
+
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}
+// SCSS nesting 구조
