@@ -21,5 +21,18 @@ header {
       }
     }
   }
+  .box {
+    background-color: red;
+  }
+  .box.show {
+    background-color: blue;
+  }
+
+  .box2 {
+    display: none;
+  }
+  .box2.active {
+    display: block;
+  }
 }
 // SCSS nesting 구조

@@ -1,0 +1,81 @@
+/* 전체 기본 스타일 */
+
+#headerTest {
+  font-family: sans-serif;
+  padding: 20px;
+  margin-top: 500px;
+}
+
+#headerTest h1 {
+  margin-bottom: 20px;
+}
+
+/* 버튼 스타일 */
+
+#headerTest button {
+  display: block;
+  margin: 10px 0;
+  padding: 8px 14px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+#headerTest button:hover {
+  background: #555;
+}
+
+/* 메뉴 스타일 */
+
+#headerTest nav {
+  margin: 10px 0 20px;
+}
+
+#headerTest nav a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* box 기본 상태 */
+
+#headerTest .box {
+  width: 200px;
+  height: 100px;
+  background: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  transition: 0.3s;
+  color: red;
+}
+
+#headerTest .box.show {
+  background: tomato;
+  color: white;
+}
+
+/* box2 기본 상태 */
+
+#headerTest .box2 {
+  width: 200px;
+  height: 100px;
+  background: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+/* active 클래스 추가되면 강조 */
+
+#headerTest .box2.active {
+  opacity: 1;
+  transform: scale(1.05);
+}
